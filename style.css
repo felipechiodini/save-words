@@ -1,0 +1,17 @@
+.meu-popup {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 999999;
+  transition: opacity 0.2s ease;
+  color: #202124;
+}
+
+.meu-popup:hover {
+  background: #f2f2f2;
+}

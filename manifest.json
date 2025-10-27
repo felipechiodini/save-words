@@ -3,8 +3,24 @@
   "description": "Base Level Extension",
   "version": "1.0",
   "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ],
   "action": {
-    "default_popup": "hello.html",
-    "default_icon": "hello_extensions.png"
-  }
+    "default_title": "Abrir Relatório",
+    "default_popup": "relatorio.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["report.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
 }
