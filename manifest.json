@@ -1,6 +1,6 @@
 {
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
+  "name": "WordStorage",
+  "description": "Salve palavras e trechos de texto rapidamente enquanto navega para referência futura.",
   "version": "1.0",
   "manifest_version": 3,
   "background": {
